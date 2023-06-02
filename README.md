@@ -63,3 +63,30 @@ Vous pouvez ajouter aux liens des attributs `id` et `class` de cette manièr
 ```
 [la documentation de Framasite](https://docs.framasoft.org/fr/grav/){#id .class1 .class2}
 ```
+
+## Images
+
+Utilisez une image en ligne en copiant son adresse (finissant par `.jpg`, `.png`, `.gif` etc…) avec un texte alternatif entre crochets (qui sera affiché si l'image n'apparaît pas) et le lien entre parenthèses. Vous pouvez aussi ajouter un texte qui apparaîtra au survol de la souris grâce aux `"`.
+
+```
+![le logo de Framasoft](https://framasoft.org/nav/img/logo.png)
+```
+
+On peut ajouter un texte au survol :
+
+```
+![Le logo de Framasoft](https://framasoft.org/nav/img/logo.png "Un bien beau logo !")
+```
+
+Redimensionnement des images, exemple de l'image ci-dessus redimensionnée à 100 pixels de large :
+
+```md
+![Engelbart|100](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
+```
+
+Ou pour une images local
+
+```md
+![[og-image.png|200]]
+```
+
