@@ -47,76 +47,6 @@ Créez un bloc de code en indentant chaque ligne avec quatre espaces, ou en mett
 
 s'affiche ainsi :
 
-## Listes
-
-Vous pouvez créer des listes avec les caractères `*` et `-` pour des listes non ordonnées ou avec des nombres pour des listes ordonnées.
-
-Une liste non ordonnée :
-
-```
-* une élément
-* un autre
- * un sous élément
- * un autre sous élément
-* un dernier élément
-```
-
--   une élément
--   un autre
-    -   un sous élément
-    -   un autre sous élément
--   un dernier élément
-
-Une liste ordonnée :
-
-```
-1. élément un
-2. élément deux
-	1. un sous élément
-	2. un autre sous élément 
-```
-
-1.  élément un
-2.  élément deux
-	1. un sous élément
-	2. un autre sous élément 
-
-```md
-- Item 1
-
-- Item 2
-- Item 3
-```
-
--   Item 1
-    
--   Item 2
-    
--   Item 3
-
-### Task list
-
-```md
-- [x] #tags, [links](), **formatting** supported
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [?] this is also a complete item (works with every character)
-- [ ] this is an incomplete item
-- [ ] tasks can be clicked in Preview to be checked off
-```
-
--   [#tags](https://publish.obsidian.md/#tags), [links](https://publish.obsidian.md/), **formatting** supported
--   list syntax required (any unordered or ordered list supported)
--   this is a complete item
-- [?]  this is also a complete item (works with every character)
-- [ ] this is an incomplete item
-- [ ] tasks can be clicked in Preview to be checked off
-- [ ] 
-
-```
-bloc de code
-```
-
 ## Liens
 
 Créez un lien intégré en mettant le texte désiré entre crochets et le lien associé entre parenthèses.
@@ -215,4 +145,74 @@ Vous pouvez rendre un appel pliable en ajoutant un plus (+) ou un moins (-) dire
 > [!todo] Yes!, they can.
 
 > [!example] You can even use multiple layers of nesting.
+
+## Listes
+
+Vous pouvez créer des listes avec les caractères `*` et `-` pour des listes non ordonnées ou avec des nombres pour des listes ordonnées.
+
+Une liste non ordonnée :
+
+```
+* une élément
+* un autre
+ * un sous élément
+ * un autre sous élément
+* un dernier élément
+```
+
+-   une élément
+-   un autre
+    -   un sous élément
+    -   un autre sous élément
+-   un dernier élément
+
+Une liste ordonnée :
+
+```
+1. élément un
+2. élément deux
+	1. un sous élément
+	2. un autre sous élément 
+```
+
+1.  élément un
+2.  élément deux
+	1. un sous élément
+	2. un autre sous élément 
+
+```md
+- Item 1
+
+- Item 2
+- Item 3
+```
+
+-   Item 1
+    
+-   Item 2
+    
+-   Item 3
+
+### Task list
+
+```md
+- [x] #tags, [links](), **formatting** supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [?] this is also a complete item (works with every character)
+- [ ] this is an incomplete item
+- [ ] tasks can be clicked in Preview to be checked off
+```
+
+-   [#tags](https://publish.obsidian.md/#tags), [links](https://publish.obsidian.md/), **formatting** supported
+-   list syntax required (any unordered or ordered list supported)
+-   this is a complete item
+- [?]  this is also a complete item (works with every character)
+- [ ] this is an incomplete item
+- [ ] tasks can be clicked in Preview to be checked off
+- [ ] 
+
+```
+bloc de code
+```
 
