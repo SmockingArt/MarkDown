@@ -216,3 +216,16 @@ Une liste ordonnée :
 bloc de code
 ```
 
+## Titres
+
+Pour faire un titre, vous devez mettre un `#` devant la ligne. Pour faire un titre plus petit, ajoutez un `#`  :
+
+```
+# Un grand titre
+## Un titre un peu moins grand
+### Un titre encore moins grand
+...
+...
+###### Le plus petit titre
+```
+
