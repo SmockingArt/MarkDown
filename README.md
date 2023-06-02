@@ -23,3 +23,17 @@ L'avantage du Markdown est qu'il permet de conserver la simplicité et la portab
 1.  se **concentrer sur l’écriture** (pas de distraction liée à la mise en forme);
 2.  **garder les mains sur le clavier** pour la frappe, mais aussi pour la mise en forme. Certes il existe des raccourcis clavier pour les éléments présentés au-dessus, l’intérêt du langage réside également dans la facilité qu’il offre à _changer_ ces attributs. Par exemple _pour changer le niveau d’un titre, il suffit d’ajouter ou enlever un dièse_;
 3.  **une portabilité évidente**: on est sur des fichiers texte à 100%, donc éditable sur toutes les plateformes, et tous types de logiciels, depuis le plus simple Bloc Note Windows ou TextEdit sur Mac.
+
+## Styles de texte
+
+
+Vous pouvez utiliser `_` ou `*` autour d'un mot pour le mettre en italique. Mettez-en deux pour le mettre en gras.
+
+-   `_italique_` s'affiche ainsi : _italique_
+-   `**gras**` s'affiche ainsi : **gras**
+-   `**_gras-italique_**` s'affiche ainsi : **_gras-italique_**
+-   `~~barré~~` s'affiche ainsi : ~~barré~~
+- `==Highlighting==`  ==Highlighting==
+-  `%%` %%s'affiche pas en lecture%%
+ - `$this will also be grass$` $this will also be grass$
+ - `$$text millieux page$$` $$texte$$
