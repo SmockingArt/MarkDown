@@ -113,7 +113,7 @@ Pour en savoir plus sur les callouts [here](https://help.obsidian.md/How+to/Use
 > Here's a callout block.
 > It supports **markdown** and [[Internal links|wikilinks]].
 
-#### ### Foldable callouts
+#### Foldable callouts
 
 Vous pouvez rendre un appel pliable en ajoutant un plus (+) ou un moins (-) directement après l'identifiant du type.
 
@@ -227,5 +227,12 @@ Pour faire un titre, vous devez mettre un `#` devant la ligne. Pour faire un t
 ...
 ...
 ###### Le plus petit titre
+```
+
+Vous pouvez également souligner le texte en utilisant `===` ou `---` pour créer des titres.
+
+```
+Un grand titre
+=============
 ```
 
