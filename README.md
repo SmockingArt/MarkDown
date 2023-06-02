@@ -91,3 +91,62 @@ Ou pour une images local
 ![[og-image.png|200]]
 ```
 
+## Citation
+
+Les citations se font avec le signe `>` :
+
+```
+> Oh la belle prise !
+```
+
+> Oh la belle prise !
+
+### Callouts
+
+Utilisez la syntaxe suivante pour désigner un bloc d'appel: `> [!INFO]`.
+
+Pour en savoir plus sur les callouts [here](https://help.obsidian.md/How+to/Use+callouts).
+
+```markdown
+> [!INFO]
+> Here's a callout block.
+> It supports **markdown** and [[Internal links|wikilinks]].
+```
+
+> [!INFO]
+> Here's a callout block.
+> It supports **markdown** and [[Internal links|wikilinks]].
+
+#### ### Foldable callouts
+
+Vous pouvez rendre un appel pliable en ajoutant un plus (+) ou un moins (-) directement après l'identifiant du type.
+
+```
+> [!faq]- Are callouts foldable?
+> Yes! In a foldable callout, the contents are hidden when the callout is collapsed.
+```
+
+
+> [!faq]- Are callouts foldable?
+> Yes! In a foldable callout, the contents are hidden when the callout is collapsed.
+
+#### Nested callouts
+
+```
+> [!question] Can callouts be nested?
+> > [!todo] Yes!, they can.
+> > > [!example]  You can even use multiple layers of nesting.
+```
+
+
+> [!question] Can callouts be nested? 
+> > > [!todo] Yes!, they can.
+> > >  > > > [!example] You can even use multiple layers of nesting.
+
+
+> [!question] Can callouts be nested?
+
+> [!todo] Yes!, they can.
+
+> [!example] You can even use multiple layers of nesting.
+
