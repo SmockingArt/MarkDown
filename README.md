@@ -37,3 +37,29 @@ Vous pouvez utiliser `_` ou `*` autour d'un mot pour le mettre en italique. 
 -  `%%` %%s'affiche pas en lecture%%
  - `$this will also be grass$` $this will also be grass$
  - `$$text millieux page$$` $$texte$$
+
+## Blocs de code
+
+Créez un bloc de code en indentant chaque ligne avec quatre espaces, ou en mettant trois accents graves sur la ligne au dessus et en dessous de votre code. Exemple :
+
+` ```bloc de code``` ` 
+
+s'affiche ainsi :
+
+```
+bloc de code
+```
+
+## Liens
+
+Créez un lien intégré en mettant le texte désiré entre crochets et le lien associé entre parenthèses.
+
+`Aidez-vous avec [la documentation de Framasite](https://docs.framasoft.org/fr/grav/) !`
+
+s'affichera :
+
+Vous pouvez ajouter aux liens des attributs `id` et `class` de cette manière :
+
+```
+[la documentation de Framasite](https://docs.framasoft.org/fr/grav/){#id .class1 .class2}
+```
