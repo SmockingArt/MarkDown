@@ -235,7 +235,7 @@ Vous pouvez également souligner le texte en utilisant `===` ou `---` pour c
 Un grand titre
 =============
 ```
-Graph View
+## Graph View
 
 Filtrer avec un mot clé ou avec un hastag.
 
@@ -250,3 +250,44 @@ Jouer avec les forces de liens :
 
 > MÉTHODE IMPORTANTE : utiliser le Graph View surtout pour repérer les notes solitaires dans les limbes et non-raccrochées à quoi que ce soit.
 
+## Tableaux
+
+Pour créer un tableau vous devez placer une ligne de tirets (`-`) sous la ligne d'entête et séparer les colonnes avec des `|`. Vous pouvez aussi préciser l'alignement en utilisant des `:`. :
+
+```
+| Aligné à gauche  | Centré          | Aligné à droite |
+| :--------------- |:---------------:| -----:|
+| Aligné à gauche  |   ce texte        |  Aligné à droite |
+| Aligné à gauche  | est             |   Aligné à droite |
+| Aligné à gauche  | centré          |    Aligné à droite |
+```
+
+
+| Aligné à gauche  | Centré          | Aligné à droite |
+| :--------------- |:---------------:| -----:|
+| Aligné à gauche  |   ce texte        |  Aligné à droite |
+| Aligné à gauche  | est             |   Aligné à droite |
+| Aligné à gauche  | centré          |    Aligné à droite |
+
+Si vous placez des liens dans des tableaux, ils fonctionneront, mais si vous utilisez [alias](https://help.obsidian.md/Linking+notes+and+files/Aliases), le tuyau doit être échappé par un `` pour éviter qu'il ne soit lu comme un élément de tableau.
+
+```md
+First Header | Second Header
+------------ | ------------
+[[Format your notes\|Formatting]]	|  [[Keyboard shortcuts\|hotkeys]]
+```
+
+First Header | Second Header
+------------ | ------------
+[[Format your notes\|Formatting]]	|  [[Keyboard shortcuts\|hotkeys]]
+
+- [Formatting](https://help.obsidian.md/How+to/Format+your+notes)
+- [hotkeys](https://help.obsidian.md/How+to/Use+hotkeys)
+
+`Si vous voulez redimensionner les images dans les tableaux, vous devez faire précéder le tuyau d'un `` :
+
+```md
+Image | Description
+----- | -----------
+![[og-image.png\|200]] | Obsidian
+```
