@@ -235,4 +235,18 @@ Vous pouvez également souligner le texte en utilisant `===` ou `---` pour c
 Un grand titre
 =============
 ```
+Graph View
+
+Filtrer avec un mot clé ou avec un hastag.
+
+Colorer des recherches pré-enregistrées
+
+Jouer avec les forces de liens :
+
+-   Central force : 0
+-   Repulsion : 70%
+-   Links : 100%
+-   Distance : 0
+
+> MÉTHODE IMPORTANTE : utiliser le Graph View surtout pour repérer les notes solitaires dans les limbes et non-raccrochées à quoi que ce soit.
 
