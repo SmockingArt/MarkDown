@@ -310,3 +310,12 @@ Après il reste possible d’utiliser du HTML et les classes CSS de Bootstrap 
 
 Les classes de Bootstrap sont : `text-left¦text-center¦text-right¦text-justify`
 
+## Couleurs
+
+Vous pouvez utiliser du code html :
+
+```
+Texte normal suivi d’un <span style="color: #26B260">texte coloré en vert</span> dans un paragraphe.
+```
+
+Texte normal suivi d’un <span style="color: #26B260">texte coloré en vert</span> dans un paragraphe.
