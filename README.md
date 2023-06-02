@@ -291,3 +291,22 @@ Image | Description
 ----- | -----------
 ![[og-image.png\|200]] | Obsidian
 ```
+
+## Alignements
+
+La syntaxe markdown seule ne permet pas d’aligner du texte mais Grav inclus quelques shortcodes :
+
+```
+[left]Texte àligné à gauche[/left]
+[center]Texte centré[/center]
+[right]Texte algné à droite[/right]
+```
+
+Après il reste possible d’utiliser du HTML et les classes CSS de Bootstrap :
+
+```
+<p class="text-center">Texte centré</p>
+```
+
+Les classes de Bootstrap sont : `text-left¦text-center¦text-right¦text-justify`
+
